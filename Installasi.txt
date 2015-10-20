@@ -1,0 +1,26 @@
+Untuk installasi :
+1. Buat database di phpmyadmin dan import file dbtoko.sql
+2. Ubah pengaturan database di folder config/koneksi.php
+3. Jalankan website anda dengan url http://localhost/tokoonline
+
+Untuk admin : http://localhost/tokoonline/admin
+User: admin
+Pass: admin
+
+4. Apabila ada warning mail() function:Failed ..., 
+hal tersebut dikarenakan Anda menjalankan proses transaksi di localhost, 
+namun apabila program toko online dijalankan secara online di Internet, 
+maka warningnya sudah tidak tampil, karena hal ini berhubungan dengan email,
+dimana secara otomatis setelah proses transaksi selesai, 
+maka data ordernya akan dikirimkan ke email kustomer dan email 
+pengelola toko online.
+
+5. Dan terakhir, kritik dan saran membangun sangat saya harapkan dari 
+para pembaca/pengguna program Toko Online agar terus dapat berjalan 
+dengan baik dan stabil.
+
+
+
+Salam Hangat,
+
+Muhammad Multazam
